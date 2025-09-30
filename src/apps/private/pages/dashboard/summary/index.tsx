@@ -48,7 +48,7 @@ export default function Summary() {
   ];
   return (
     <div className="grid gap-4 grid-cols-3">
-      {items.map((item, index) => {
+      {items.map((item) => {
         return (
           <MetricCard
             title={item.title}
